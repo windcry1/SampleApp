@@ -6,11 +6,11 @@ target 'SampleApp' do
   # use_frameworks!
 
   # Pods for SampleApp
-  pod 'AFNetworking'
-  pod 'Mantle'
-  pod 'YYText'
-  pod 'YYImage'
-  pod 'YYWebImage'
-  pod 'Masonry'
+  pod 'AFNetworking', '4.0.1'
+  pod 'Mantle', '2.1.6'
+  pod 'YYText', '1.0.7'
+  pod 'YYImage', '1.0.4'
+  pod 'YYWebImage', '1.0.5'
+  pod 'Masonry', '1.1.0'
 
 end
