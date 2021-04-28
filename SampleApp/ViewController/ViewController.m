@@ -61,6 +61,9 @@
 
 - (void)retireButtonClicked
 {
+    if(!self.navigationController){
+        return ;
+    }
     WebDetailViewController *webVC = [[WebDetailViewController alloc] init];
     [self.navigationController pushViewController:webVC animated:YES];
 }

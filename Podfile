@@ -12,5 +12,6 @@ target 'SampleApp' do
   pod 'YYImage', '1.0.4'
   pod 'YYWebImage', '1.0.5'
   pod 'Masonry', '1.1.0'
+  pod 'CYLTabBarController', '1.29.0'
 
 end
